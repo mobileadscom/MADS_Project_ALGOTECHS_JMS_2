@@ -1,0 +1,101 @@
+#rma-widget, #ad-container, .page {
+    width: 320px;
+    height: 480px;
+}
+
+#ad-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+
+.abs {
+  position: absolute;
+}
+
+#forget {
+  top: 140px;
+  left: -270px;
+  z-index: 1;
+}
+
+#join {
+  top: 240px;
+  left: 320px;
+  z-index: 1;
+}
+
+#yield {
+  top: 300px;
+  /* left: -21px */
+  left: -150px;
+  z-index: 1;
+}
+
+#woman {
+  z-index: 1;
+  bottom: -290px;
+  right: -70px;
+}
+
+#consul {
+  /* left: 20px; */
+  bottom: 25px;
+  left: 320px;
+  z-index: 1;
+}
+
+#sk {
+  position: absolute;
+  top: 135px;
+}
+
+.page {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.hide {
+  display: none;
+}
+
+#logo {
+  position: absolute;
+  top: 65px;
+  left: 10px;
+  transform-origin: left top;
+}
+
+#third {
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+form input:first-child {
+  margin-top: 0.8rem;
+}
+
+form input {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+form input:not([type=submit],[type=image]) {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+}
+
+form input[type=submit], form input[type=image] {
+  align-self: flex-end;
+}
